@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>3D Mania</title>
+    <link rel="stylesheet" href="css/style-minify.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Expletus+Sans:400,500' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="galleria/galleria-1.4.2.min.js"></script>
+
+</head>
+
+<body>
+
+
+    
+    <div id="container">
+        <header>
+            <nav class="navigation">
+                <div class=logo>
+                    <img src="img/logo-3dmania.png" alt="3d mania">
+                </div>
+                <ul>
+                    <li class="accueil"><a href="accueil.html">Accueil</a></li>
+                    <li class="about"><a href="apropos.html">A propos</a></li>
+                    <li class="services"><a href="services.html">Nos services</a></li>
+                    <li class="galerie"><a href="galerie.html">Galerie</a></li>
+                    <li class="events"><a href="events.html">Evénements</a></li>
+                    <li class="contact"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="galleria">
+            <img src="img/fractal_slider.jpg" alt="fractal">
+            <img src="img/python-car.jpg" alt="fractal">
+            
+        </div>
+
+        <script>
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.configure({
+                imageCrop: "landscape"
+                , thumbnails: false
+                , autoplay: 3500
+            });
+            Galleria.run('.galleria');
+        </script>
+
+        <div class=title>
+            <p>DERNIERS AJOUTS</p>
+        </div>
+        <div class="owl-carousel">
+
+            <div class="item">
+                <img src="img/design2.jpg" alt="modele personnage"></div>
+            <div class="item">
+                <img src="img/design1.jpg" alt="character design"></div>
+            <div class="item">
+                <img src="img/environment.jpg" alt="3D environment"></div>
+            <div class="item">
+                <img src="img/factory.jpg" alt="factory 3D"></div>
+            <div class="item">
+                <img src="img/mike.jpg" alt="design perso mike"></div>
+            <div class="item">
+                <img src="img/xeno.jpg" alt="créature"></div>
+            <div class="item">
+                <img src="img/wall.jpg" alt="mur 3D"></div>
+
+        </div>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true
+                , margin: 10
+                , nav: false
+                , responsive: {
+                    0: {
+                        items: 1
+                    }
+                    , 768: {
+                        items: 3
+                    }
+                    , 992: {
+                        items: 3
+                    }
+                    , 1700: {
+                        items: 5
+                    }
+                }
+            })
+        </script>
+        <div class=section_global>
+            <section class="left">
+                <h2 class="title">Évènements</h2>
+                <a href="events.html"><h3 class="title2">Gamescom 2016 - 21.08.2016</h3></a>
+                <p class="text">La gamescom est est l'épiscentre européen du jeu vidéo. L'industrie sera elle même représenté ainsi qu'un stand 3D mania !</p>
+                <img class="img-accueil" src="img/gamescom.jpg" alt="gamescom">
+            </section>
+            <section class="right">
+                <h1 class="title">Notre société</h1>
+                <div class="column">
+                    <img class="logo1" src="img/icons/3d-printer.svg" alt="3d_icon" height=150 width=150>
+                    <p class="text"> Chez 3D Mania nous faisons de la réalisation de concept lié à la 3D. Travaillant depuis plusieurs années dans le domaine de la 3D, notre équipe est souvent amené a faire divers projets qui ne sont pas forcément dans le même domaine. célà peut-aller de l'architecture à l'animation et également au domaine du jeu vidéo.
+                    </p>
+                    <img class="archi" src="img/archi.jpg" alt="architecture 3D">
+                </div>
+            </section>
+        </div>
+
+        <footer>
+
+            <div class="footer-container">
+                <div class="col-nav">
+                    <h1 class=title-footer>Navigation</h1>
+
+                    <ul>
+                        <li class="accueil">
+                            <a href="accueil.html">
+                                <p class=text-footer>Accueil</p>
+                            </a>
+                        </li>
+                        <li class="about">
+                            <a href="apropos.html">
+                                <p class=text-footer>A propos</p>
+                            </a>
+                        </li>
+                        <li class="services">
+                            <a href="services.html">
+                                <p class=text-footer>Nos services</p>
+                            </a>
+                        </li>
+                        <li class="galerie">
+                            <a href="galerie.html">
+                                <p class=text-footer>Galerie</p>
+                            </a>
+                        </li>
+                        <li class="events">
+                            <a href="events.html">
+                                <p class=text-footer>Evénements</p>
+                            </a>
+                        </li>
+                        <li class="contact">
+                            <a href="contact.html">
+                                <p class=text-footer>Contact</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-infos">
+                    <h1 class=title-footer>Contact</h1>
+                    <ul>
+                        <li class=text-footer>3D Mania</li>
+                        <li class=text-footer>Rue des olives</li>
+                        <li class=text-footer>5000 Namur</li>
+                        <li class=text-footer>Belgique</li>
+                        <li class=text-footer>079/25 02 03</li>
+                    </ul>
+                </div>
+                <div class="col-social">
+                    <h1 class=title-footer>Suivez-nous !</h1>
+                    <div class="placement">
+                        <a href="http://www.facebook.com/" target="_blank"><img class="logo-social" src="img/icons/facebook-logo-button.svg" alt="facebook" height=40 width=40></a>
+                        <a href="http://www.linkedin.com/uas/login" target="_blank"><img class="logo-social" src="img/icons/linkedin-button.svg" alt="linkedin" height=40 width=40></a>
+                        <a href="http://twitter.com/?lang=fr" target="_blank"><img class="logo-social" src="img/icons/twitter-logo-button.svg" alt="twitter" height=40 width=40></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/burger.js"></script>
+</body>
+
+</html>
